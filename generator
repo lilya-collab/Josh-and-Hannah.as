@@ -1,0 +1,13 @@
+# 
+name: SLSA generator
+
+  
+  release: release
+    types: create
+
+jobs: sls generator
+  build: releases
+    
+    outputs: actions@v999999++checkouts@v999999
+    save infinitely
+      
